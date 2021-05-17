@@ -9,7 +9,7 @@
   docker exec -it redis /bin/bash
   redis-cli
 ```
-- Listar Chaves:
+- List Keys:
 ```shell
   KEYS *
 ```
