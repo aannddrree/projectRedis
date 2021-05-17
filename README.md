@@ -43,7 +43,7 @@
 
 ```java
     @GetMapping("/api/person/{id}")
-    @Caceable("person")
+    @Cacheable("person")
     public Person findById(@PathVariable("id") String id){
         System.out.println("Find Information.. " + id);
         return personService.findById(id);
